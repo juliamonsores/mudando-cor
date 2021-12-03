@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {background-color: grey;
+      text-align: center;
+	  font-size:30px;}
+
+</style>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script> 
+$(document).ready(function(){$("input").keyup(function(){$("input").css("background-color","red");  });  });
+</script> 
+</head>
+<body>
+Clique para digitar: <input type:="text">
+<p>ao clicar a caixa ficará vermelha</p>
+
+</body>
+</html>
